@@ -13,7 +13,7 @@ Console.WriteLine("Задан массив, из 123 элементов:");
 Console.WriteLine(string.Join(", ", array));
 int count = 0;
 for(int i = 0; i < array.Length; i++)
-if (array[i] > 9 && array[i] < 100)
+if (array[i] > 10 && array[i] < 99)
 {
     count = count + 1;
 }
