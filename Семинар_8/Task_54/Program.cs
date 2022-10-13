@@ -46,12 +46,12 @@ void ArrangeMatrix(int[,] matrix)
   }
 }
 
-int m = ReadNumber("Введите колличество строк");
-int n = ReadNumber("Введите колличество столбцов");
+int m = ReadNumber("Введите колличество строк: ");
+int n = ReadNumber("Введите колличество столбцов: ");
 int[,] matr = GetMatrix(m,n);
-Console.WriteLine("Случайный массив:");
+Console.WriteLine("Случайный массив: ");
 PrintMatrix(matr);
 Console.WriteLine();
-Console.WriteLine("Упорядоченный массив:");
+Console.WriteLine("Упорядоченный массив: ");
 ArrangeMatrix(matr);
 PrintMatrix(matr);
